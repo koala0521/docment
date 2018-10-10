@@ -1,0 +1,39 @@
+{
+    "title": "帮助文档",
+    "description": "帮助文档",
+    "author": "koala",
+    "isbn": "00001",
+    "language": "zh-hans",
+    "links" : { 
+        "sidebar" : { 
+            "快统计官网" : "http://ktj.wankacn.com/" 
+        } 
+    },
+    "plugins":[
+        "sharing",
+        "tbfed-pagefooter@^0.0.1",
+        "search-plus",
+        "splitter",
+        "prism",
+        "prism-themes", 
+        "-highlight",
+        "-lunr", 
+        "-search"         
+    ],
+    "styles":{
+        "website": "styles/website.css"
+    },   
+    "pluginsConfig": {
+        "tbfed-pagefooter": {
+            "copyright": "Copyright © koala0521 2017",
+            "modify_label": "文件最近一次修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "prism": {
+            "css": [
+              "prism-themes/themes/prism-vs.css"
+            ]
+        }
+        
+    } 
+}
