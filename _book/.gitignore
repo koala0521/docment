@@ -152,6 +152,8 @@ dist
 .rpk
 
 # gitbook 编译后的文件
+_book
+*/*/_book
 
 # history 文件夹
 .history
