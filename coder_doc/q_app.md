@@ -11,7 +11,7 @@
 
 #### 2.1 下载SDK
 下载 SDK文件并解压，将其中的 appStatistics.min.js、statistics.config.js拷贝到app.ux同级的目录（src目录下）。
-下载地址： [SDK下载](https://kss.ksyun.com/file-mha/quickapp_statistics/sdk/quickapp_statistics_sdk.zip​)
+下载地址： [快统计 SDK 下载](https://kss.ksyun.com/file-mha/quickapp_statistics/sdk/quickapp_statistics_sdk.zip​)
 
 
 #### 2.2 SDK导入项目
@@ -246,7 +246,6 @@
  1. 一个 app_key 只能对应一个快应用，请不要重复使用，否则会造成数据不准确；
  2. 确保在路由中配置的所有页面都增加统计代码，否则会造成数据不准确、统计数据缺失；
  3. 请开发者慎重调用 storage.clear(OBJECT) 接口！统计SDK 会将用户相关操作数据缓存在客户端数据存储模块。若调用该接口可导致数据统计不准确的问题。
- 4. [sdk][2]
 
 
 [1]: http://ktj.wankacn.com/login,
