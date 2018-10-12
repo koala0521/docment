@@ -249,6 +249,6 @@
  3. 请开发者慎重调用 storage.clear(OBJECT) 接口！统计SDK 会将用户相关操作数据缓存在客户端数据存储模块。若调用该接口可导致数据统计不准确的问题。
 
 
-[1]: http://ktj.wankacn.com/login
+[1]: http://ktj.wankacn.com/login,
 
 [2]: https://kss.ksyun.com/file-mha/quickapp_statistics/sdk/quickapp_statistics_sdk.zip
