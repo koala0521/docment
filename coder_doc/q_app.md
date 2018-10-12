@@ -11,7 +11,7 @@
 
 #### 2.1 下载SDK
 下载 SDK文件并解压，将其中的 appStatistics.min.js、statistics.config.js拷贝到app.ux同级的目录（src目录下）。
-下载地址： [SDK下载][2]
+下载地址： [SDK下载](https://kss.ksyun.com/file-mha/quickapp_statistics/sdk/quickapp_statistics_sdk.zip​)
 
 
 #### 2.2 SDK导入项目
