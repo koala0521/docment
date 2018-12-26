@@ -1,7 +1,18 @@
 <!-- 这是注释内容配置文件 -->
 
-## 注释
-这是测试注释功能的。
+## 项目描述
 
-## 🐷
-这是一头猪，可爱的猪猪。
+```
+    安装gitbook依赖:
+
+    gitbook install
+
+    本地启动项目 ：
+
+    gitbook serve
+
+    打包项目：
+
+    gitbook build  ./ ../build
+
+```

@@ -4,9 +4,10 @@
     "author": "koala",
     "isbn": "00001",
     "language": "zh-hans",
+    "output": "/test",
     "links" : { 
         "sidebar" : { 
-            "快统计官网" : "http://ktj.wankacn.com/" 
+            "轻粒子官网" : "http://www.qinglizi.cn/account/login" 
         } 
     },
     "plugins":[
@@ -16,6 +17,7 @@
         "splitter",
         "prism",
         "prism-themes", 
+        "disqus",
         "-highlight",
         "-lunr", 
         "-search"         
@@ -25,7 +27,7 @@
     },   
     "pluginsConfig": {
         "tbfed-pagefooter": {
-            "copyright": "Copyright © koala0521 2017",
+            "copyright": "",
             "modify_label": "文件最近一次修订时间：",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
@@ -33,7 +35,9 @@
             "css": [
               "prism-themes/themes/prism-vs.css"
             ]
+        },
+        "disqus": {
+            "shortName": "koala0521"
         }
-        
     } 
 }

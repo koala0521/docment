@@ -2,6 +2,15 @@
 
 ---
 
+#### 版本： v1.3.2.0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 更新时间：2018-12-21
+
+- 新增快应用错误统计；
+- 优化 sdk 接入方式，接入更加简单。
+
+#### 版本： v1.3.1.0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 更新时间：2018-11-19
+
+- 增加“入口分析”功能；
+- 优化“打开次数”计算逻辑：锁屏 30s 和切到后台 30s，再次进入时，算做一次新的打开。
 
 #### 版本： v1.3.0.0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 更新时间：2018-10-20
 
